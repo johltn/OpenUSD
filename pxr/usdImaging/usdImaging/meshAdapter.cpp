@@ -411,7 +411,7 @@ UsdImagingMeshAdapter::GetTopology(UsdPrim const& prim,
                    HdGeomSubset {
                        HdGeomSubset::TypeFaceSet,
                        subset.GetPath(),
-                       GetMaterialUsdPath(subset.GetPrim()),
+                       {},
                        indices });
             }
         }
